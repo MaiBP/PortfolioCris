@@ -1,0 +1,54 @@
+.el {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.el-texts {
+  width: 100%;
+}
+
+.el-title {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.el-desc {
+  margin: 20px 0px;
+  font-size: 30px;
+}
+
+.el-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .el {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .el-texts {
+    width: 100%;
+  }
+
+  .el-desc {
+    font-size: 4vw;
+    margin: auto;
+  }
+  .el-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.el-list {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+}
